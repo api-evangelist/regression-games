@@ -1,0 +1,49 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  GitHub Releases API for Regression-Games/RGUnityBots + the public Notion patch
+  notes page (queried 2026-07-21)
+docs: https://regressiongg.notion.site/Regression-Games-Patch-Notes-d32e44337db143dcab8ddfd2ce981651
+description: >-
+  Regression Games communicates changes through a public Notion "Patch Notes"
+  page and GitHub releases for its open-source SDKs. There is no dated REST-API
+  version to pin. The Unity SDK (gg.regression.unity.bots / RGUnityBots) is
+  semantically versioned with tagged GitHub releases on a roughly biweekly
+  cadence; the recent window is captured below from the Releases API. The Notion
+  patch-notes page renders client-side and could not be parsed programmatically,
+  so it is recorded here as the human-facing changelog source of truth.
+versioning:
+  scheme: semver
+  surfaces:
+    - name: Unity Testing SDK (gg.regression.unity.bots)
+      repo: https://github.com/Regression-Games/RGUnityBots/releases
+      current: v0.0.30
+    - name: rg-bot (npm)
+      repo: https://www.npmjs.com/package/rg-bot
+      current: 1.10.0
+entries:
+  - version: v0.0.30
+    date: '2024-10-29'
+    product: Unity Testing SDK
+    highlights: Tagged release of the Regression Games Unity Bots package.
+  - version: v0.0.29
+    date: '2024-10-09'
+    product: Unity Testing SDK
+  - version: v0.0.28
+    date: '2024-09-24'
+    product: Unity Testing SDK
+  - version: v0.0.27
+    date: '2024-09-10'
+    product: Unity Testing SDK
+  - version: v0.0.26
+    date: '2024-08-26'
+    product: Unity Testing SDK
+  - version: v0.0.25
+    date: '2024-08-12'
+    product: Unity Testing SDK
+  - version: v0.0.23
+    date: '2024-07-02'
+    product: Unity Testing SDK
+  - version: v0.0.22
+    date: '2024-06-18'
+    product: Unity Testing SDK

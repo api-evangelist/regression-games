@@ -1,0 +1,48 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  registry.npmjs.org JSON API + GitHub (github.com/Regression-Games) queried at
+  fetch time (2026-07-21)
+description: >-
+  First-party Regression Games client libraries and SDKs. Regression Games does
+  not publish a hosted public REST API; developers integrate through
+  open-source SDKs distributed via npm and the Unity Package Manager. The npm
+  rg-bot library and rg-ctf-utils were verified against registry.npmjs.org; the
+  Unity Testing SDK is distributed as a git-URL Unity package (gg.regression.unity.bots),
+  not a registry package. No first-party PyPI, NuGet, Maven, or crates.io
+  package was found (pypi.org JSON API returned 404 for rg-bot/regression-games);
+  Python usage is via GitHub templates that call the platform, not a published
+  pip package.
+packages:
+  - language: javascript
+    registry: npm
+    name: rg-bot
+    url: https://www.npmjs.com/package/rg-bot
+    source: https://github.com/Regression-Games/RegressionBot
+    install: npm install rg-bot
+    official: true
+    note: >-
+      JavaScript/TypeScript library to design and control Regression Games bots
+      across games (Minecraft, Capture the Flag). Latest 1.10.0 at fetch time.
+  - language: javascript
+    registry: npm
+    name: rg-ctf-utils
+    url: https://www.npmjs.com/package/rg-ctf-utils
+    source: https://github.com/Regression-Games/rg-ctf-utils
+    install: npm install rg-ctf-utils
+    official: true
+    note: Utilities for the Regression Games Capture the Flag game mode. Latest 1.0.5 at fetch time.
+  - language: csharp
+    registry: unity-package-manager
+    name: gg.regression.unity.bots
+    url: https://github.com/Regression-Games/RGUnityBots
+    source: https://github.com/Regression-Games/RGUnityBots
+    install: >-
+      Unity Package Manager > Add package from git URL:
+      https://github.com/Regression-Games/RGUnityBots.git?path=src/gg.regression.unity.bots#v0.0.30
+    official: true
+    note: >-
+      Regression Games Unity Bots — AI-agent SDK for automated playtesting, UI /
+      screenshot regression testing, replay and validation, and CI/CD in Unity.
+      Distributed as a git-URL Unity package (not on a public registry). Latest
+      release v0.0.30 (2024-10-29).

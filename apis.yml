@@ -1,20 +1,89 @@
 aid: regression-games
 name: Regression Games
-description: Regression Games is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Regression Games builds AI agents and bots for video games. Its platform lets
+  studios create bots for QA testing, multiplayer simulation, game balancing,
+  and NPC behavior with minimal code. The Unity SDK (gg.regression.unity.bots /
+  RGUnityBots) adds AI-driven automated playtesting, UI and screenshot
+  regression testing, replay and validation, and CI/CD integration for Unity
+  projects, while the earlier rg-bot JavaScript/TypeScript/Python libraries let
+  developers program bots for Minecraft and Capture-the-Flag tournaments.
+  Distribution is via open-source SDKs and templates on GitHub rather than a
+  hosted public REST API. Backed by a16z and NEA ($4.2M seed, 2022).
 url: https://raw.githubusercontent.com/api-evangelist/regression-games/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/104854591?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- NEA
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Gaming
+- Game Development
+- Testing
+- Quality Assurance
+- Unity
+- Bots
+- Agents
+- SDK
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
+common:
+- type: Website
+  name: Regression Games
+  url: https://regression.gg
+- type: GitHubOrganization
+  name: Regression-Games on GitHub
+  url: https://github.com/Regression-Games
+- type: Blog
+  name: AI and Games by Regression Games
+  url: https://medium.com/ai-and-games-by-regression-games
+- type: Support
+  name: Regression Games Discord
+  url: https://discord.gg/925SYVse2H
+- type: TermsOfService
+  name: Terms of Service
+  url: https://regression.gg/terms-of-service
+- type: PrivacyPolicy
+  name: Privacy Policy
+  url: https://regression.gg/privacy-policy
+- type: ChangeLog
+  name: Patch Notes / Release history
+  url: changelog/regression-games-changelog.yml
+- type: Packages
+  name: Client packages and SDKs
+  url: packages/regression-games-packages.yml
+- type: SDKs
+  name: Regression Games SDKs
+  url: packages/regression-games-packages.yml
+- type: DomainSecurity
+  name: Domain security posture
+  url: security/regression-games-domain-security.yml
+- type: LLMsTxt
+  name: llms.txt
+  url: llms/regression-games-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
