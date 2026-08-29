@@ -11,6 +11,17 @@ description: >-
   Distribution is via open-source SDKs and templates on GitHub rather than a
   hosted public REST API. Backed by a16z and NEA ($4.2M seed, 2022).
 url: https://raw.githubusercontent.com/api-evangelist/regression-games/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
